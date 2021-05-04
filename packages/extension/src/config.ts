@@ -59,13 +59,13 @@ export const EmbedChainInfos: ChainInfo[] = [
     rpcConfig: COSMOS_RPC_CONFIG,
     rest: COSMOS_REST_ENDPOINT,
     restConfig: COSMOS_REST_CONFIG,
-    chainId: "cosmoshub-4",
-    chainName: "Cosmos",
+    chainId: "Oraichain",
+    chainName: "Oraichain",
     stakeCurrency: {
-      coinDenom: "ATOM",
-      coinMinimalDenom: "uatom",
+      coinDenom: "ORAI",
+      coinMinimalDenom: "orai",
       coinDecimals: 6,
-      coinGeckoId: "cosmos",
+      coinGeckoId: "orai",
     },
     walletUrl:
       process.env.NODE_ENV === "production"
@@ -78,21 +78,21 @@ export const EmbedChainInfos: ChainInfo[] = [
     bip44: {
       coinType: 118,
     },
-    bech32Config: Bech32Address.defaultBech32Config("cosmos"),
+    bech32Config: Bech32Address.defaultBech32Config("orai"),
     currencies: [
       {
-        coinDenom: "ATOM",
-        coinMinimalDenom: "uatom",
+        coinDenom: "ORAI",
+        coinMinimalDenom: "orai",
         coinDecimals: 6,
-        coinGeckoId: "cosmos",
+        coinGeckoId: "orai",
       },
     ],
     feeCurrencies: [
       {
-        coinDenom: "ATOM",
-        coinMinimalDenom: "uatom",
+        coinDenom: "ORAI",
+        coinMinimalDenom: "orai",
         coinDecimals: 6,
-        coinGeckoId: "cosmos",
+        coinGeckoId: "orai",
       },
     ],
     coinType: 118,

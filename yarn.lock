@@ -10693,7 +10693,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-libsodium-wrappers@^0.7.6, "libsodium-wrappers@file:./etc/noop":
+libsodium-wrappers@^0.7.6, libsodium-wrappers@^0.7.9, "libsodium-wrappers@file:./etc/noop":
   version "0.0.1"
 
 "libsodium@file:./etc/noop":
