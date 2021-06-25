@@ -59,8 +59,8 @@ export const EmbedChainInfos: ChainInfo[] = [
     rpcConfig: COSMOS_RPC_CONFIG,
     rest: COSMOS_REST_ENDPOINT,
     restConfig: COSMOS_REST_CONFIG,
-    chainId: "Oraichain",
-    chainName: "Oraichain",
+    chainId: "Oraichain-testnet",
+    chainName: "Oraichain-testnet",
     stakeCurrency: {
       coinDenom: "ORAI",
       coinMinimalDenom: "orai",
